@@ -1,0 +1,46 @@
+Time =                    0   ||||      a =    3, b =    4 and opcode = 1 results ----> output =   -1, carry = 0, overflow = 0
+            In binary, the above can be represented as a = 00000011, b = 00000100 for opcode = 1 results ----> output = 11111111, carry =0, overflow = 0
+
+Time =                    5   ||||      a =   28, b =  127 and opcode = 1 results ----> output =  -99, carry = 0, overflow = 0
+            In binary, the above can be represented as a = 00011100, b = 01111111 for opcode = 1 results ----> output = 10011101, carry =0, overflow = 0
+
+Time =                   10   ||||      a =  127, b =    0 and opcode = 0 results ----> output =  127, carry = 0, overflow = 0
+            In binary, the above can be represented as a = 01111111, b = 00000000 for opcode = 0 results ----> output = 01111111, carry =0, overflow = 0
+
+Time =                   15   ||||      a =  127, b =  127 and opcode = 0 results ----> output =   -2, carry = 0, overflow = 1
+            In binary, the above can be represented as a = 01111111, b = 01111111 for opcode = 0 results ----> output = 11111110, carry =0, overflow = 1
+
+Time =                   20   ||||      a =  127, b =  127 and opcode = 1 results ----> output =    0, carry = 1, overflow = 0
+            In binary, the above can be represented as a = 01111111, b = 01111111 for opcode = 1 results ----> output = 00000000, carry =1, overflow = 0
+
+Time =                   25   ||||      a =   96, b =   36 and opcode = 0 results ----> output = -124, carry = 0, overflow = 1
+            In binary, the above can be represented as a = 01100000, b = 00100100 for opcode = 0 results ----> output = 10000100, carry =0, overflow = 1
+
+Time =                   30   ||||      a =   65, b =   20 and opcode = 1 results ----> output =   45, carry = 1, overflow = 0
+            In binary, the above can be represented as a = 01000001, b = 00010100 for opcode = 1 results ----> output = 00101101, carry =1, overflow = 0
+
+Time =                   35   ||||      a =   90, b =   50 and opcode = 1 results ----> output =   40, carry = 1, overflow = 0
+            In binary, the above can be represented as a = 01011010, b = 00110010 for opcode = 1 results ----> output = 00101000, carry =1, overflow = 0
+
+Time =                   40   ||||      a =   49, b =   30 and opcode = 0 results ----> output =   79, carry = 0, overflow = 0
+            In binary, the above can be represented as a = 00110001, b = 00011110 for opcode = 0 results ----> output = 01001111, carry =0, overflow = 0
+
+Time =                   45   ||||      a =   60, b =   13 and opcode = 0 results ----> output =   73, carry = 0, overflow = 0
+            In binary, the above can be represented as a = 00111100, b = 00001101 for opcode = 0 results ----> output = 01001001, carry =0, overflow = 0
+
+Time =                   50   ||||      a =    0, b =  127 and opcode = 1 results ----> output = -127, carry = 0, overflow = 0
+            In binary, the above can be represented as a = 00000000, b = 01111111 for opcode = 1 results ----> output = 10000001, carry =0, overflow = 0
+
+Time =                   55   ||||      a =   63, b =  127 and opcode = 0 results ----> output =  -66, carry = 0, overflow = 1
+            In binary, the above can be represented as a = 00111111, b = 01111111 for opcode = 0 results ----> output = 10111110, carry =0, overflow = 1
+
+Time =                   60   ||||      a =    4, b =   25 and opcode = 0 results ----> output =   29, carry = 0, overflow = 0
+            In binary, the above can be represented as a = 00000100, b = 00011001 for opcode = 0 results ----> output = 00011101, carry =0, overflow = 0
+
+Time =                   65   ||||      a =   40, b =   87 and opcode = 0 results ----> output =  127, carry = 0, overflow = 0
+            In binary, the above can be represented as a = 00101000, b = 01010111 for opcode = 0 results ----> output = 01111111, carry =0, overflow = 0
+
+Time =                   70   ||||      a =   40, b =   87 and opcode = 1 results ----> output =  -47, carry = 0, overflow = 0
+            In binary, the above can be represented as a = 00101000, b = 01010111 for opcode = 1 results ----> output = 11010001, carry =0, overflow = 0
+
+A4Q2_testbench.v:53: $finish called at 77 (1s)

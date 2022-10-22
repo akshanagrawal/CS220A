@@ -1,0 +1,33 @@
+[Running] A1Q1_test_bench.v
+time = 0, output for input 1 as follows:
+  1 +   0 + 1 =   2, carry out= 0
+time = 5, output for input 2 as follows:
+  2 + 144 + 1 = 147, carry out= 0
+time = 10, output for input 3 as follows:
+  2 +   5 + 1 =   8, carry out= 0
+time = 15, output for input 4 as follows:
+ 12 +  81 + 0 =  93, carry out= 0
+time = 20, output for input 5 as follows:
+196 + 240 + 1 = 181, carry out= 1
+time = 25, output for input 6 as follows:
+141 + 120 + 1 =   6, carry out= 1
+time = 30, output for input 7 as follows:
+149 + 101 + 0 = 250, carry out= 0
+time = 35, output for input 8 as follows:
+ 64 +  18 + 1 =  83, carry out= 0
+time = 40, output for input 9 as follows:
+255 + 254 + 1 = 254, carry out= 1
+time = 45, output for input 10 as follows:
+170 +  25 + 0 = 195, carry out= 0
+time = 50, output for input 11 as follows:
+238 +  17 + 0 = 255, carry out= 0
+time = 55, output for input 12 as follows:
+ 14 + 110 + 1 = 125, carry out= 0
+time = 60, output for input 13 as follows:
+ 61 + 180 + 1 = 242, carry out= 0
+time = 65, output for input 14 as follows:
+  0 +   0 + 0 =   0, carry out= 0
+time = 70, output for input 15 as follows:
+231 +  19 + 1 = 251, carry out= 0
+A1Q1_test_bench.v:49: $finish called at 75 (1s)
+[Done] exit with code=0 in 0.55 seconds

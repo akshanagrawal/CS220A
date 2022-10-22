@@ -1,0 +1,29 @@
+Time =                    0  :  For Input A =  15 and B =  55 -- which in binary is -- A = 00001111 and B = 00110111 results ----> L = 1, E = 0, G = 0
+
+Time =                    5  :  For Input A =  15 and B =  15 -- which in binary is -- A = 00001111 and B = 00001111 results ----> L = 0, E = 1, G = 0
+
+Time =                   10  :  For Input A = 255 and B = 255 -- which in binary is -- A = 11111111 and B = 11111111 results ----> L = 0, E = 1, G = 0
+
+Time =                   15  :  For Input A =   0 and B =   1 -- which in binary is -- A = 00000000 and B = 00000001 results ----> L = 1, E = 0, G = 0
+
+Time =                   20  :  For Input A =   0 and B =   0 -- which in binary is -- A = 00000000 and B = 00000000 results ----> L = 0, E = 1, G = 0
+
+Time =                   25  :  For Input A =   1 and B =   0 -- which in binary is -- A = 00000001 and B = 00000000 results ----> L = 0, E = 0, G = 1
+
+Time =                   30  :  For Input A = 100 and B =  20 -- which in binary is -- A = 01100100 and B = 00010100 results ----> L = 0, E = 0, G = 1
+
+Time =                   35  :  For Input A =  20 and B = 100 -- which in binary is -- A = 00010100 and B = 01100100 results ----> L = 1, E = 0, G = 0
+
+Time =                   40  :  For Input A =   5 and B =  50 -- which in binary is -- A = 00000101 and B = 00110010 results ----> L = 1, E = 0, G = 0
+
+Time =                   45  :  For Input A = 100 and B = 100 -- which in binary is -- A = 01100100 and B = 01100100 results ----> L = 0, E = 1, G = 0
+
+Time =                   50  :  For Input A = 255 and B =   0 -- which in binary is -- A = 11111111 and B = 00000000 results ----> L = 0, E = 0, G = 1
+
+Time =                   55  :  For Input A =   1 and B = 255 -- which in binary is -- A = 00000001 and B = 11111111 results ----> L = 1, E = 0, G = 0
+
+Time =                   60  :  For Input A = 150 and B = 200 -- which in binary is -- A = 10010110 and B = 11001000 results ----> L = 1, E = 0, G = 0
+
+Time =                   65  :  For Input A =  20 and B =   0 -- which in binary is -- A = 00010100 and B = 00000000 results ----> L = 0, E = 0, G = 1
+
+Time =                   70  :  For Input A = 200 and B = 255 -- which in binary is -- A = 11001000 and B = 11111111 results ----> L = 1, E = 0, G = 0
